@@ -12,6 +12,7 @@ class EntryController {
     static let shared = EntryController()
     var entries: [Entry] = []
     
+    /* Added title to model. Please fix func.*/
     func createEntryWith(text: String) {
         let newEntry = Entry(bodyText: text)
         
