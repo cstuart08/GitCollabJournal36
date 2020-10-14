@@ -19,9 +19,10 @@ class EntryController {
         self.entries.append(newEntry)
     }
     
-    func update(entry: Entry, title: String, body: String) {
+    func updateEntry(_ entry: Entry, title: String, bodyText: String) {
         entry.title = title
-        entry.bodyText = body
+        entry.bodyText = bodyText
+        print("Update entry successfully")
     }
 }
 
