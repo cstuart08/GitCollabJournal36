@@ -20,7 +20,7 @@ class EntryController {
     }
 }
 
-func update(entry: Entry, title: String, bodyText: String) {
+func updateEntry(_ entry: Entry, title: String, bodyText: String) {
     entry.title = title
     entry.bodyText = bodyText
 }
