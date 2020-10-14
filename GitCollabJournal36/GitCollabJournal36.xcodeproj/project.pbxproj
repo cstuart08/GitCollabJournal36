@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AA1C2812537603400A47A61 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1C2802537603400A47A61 /* EntryController.swift */; };
 		7E368BF025375C5B005BA3D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E368BEF25375C5B005BA3D4 /* AppDelegate.swift */; };
 		7E368BF225375C5B005BA3D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E368BF125375C5B005BA3D4 /* SceneDelegate.swift */; };
 		7E368BF725375C5B005BA3D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E368BF525375C5B005BA3D4 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AA1C2802537603400A47A61 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
 		7E368BEC25375C5B005BA3D4 /* GitCollabJournal36.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitCollabJournal36.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E368BEF25375C5B005BA3D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E368BF125375C5B005BA3D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AA1C27F2537602000A47A61 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1C2802537603400A47A61 /* EntryController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		7E368BE325375C5B005BA3D4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		7E368BEE25375C5B005BA3D4 /* GitCollabJournal36 */ = {
 			isa = PBXGroup;
 			children = (
+				2AA1C27F2537602000A47A61 /* Controllers */,
 				7E368C0825375E03005BA3D4 /* Model */,
 				7E368C0425375CAD005BA3D4 /* Resources */,
 				7E368BF525375C5B005BA3D4 /* Main.storyboard */,
@@ -155,6 +166,7 @@
 			files = (
 				7E368C0A25375E12005BA3D4 /* Entry.swift in Sources */,
 				7E368BF025375C5B005BA3D4 /* AppDelegate.swift in Sources */,
+				2AA1C2812537603400A47A61 /* EntryController.swift in Sources */,
 				7E368BF225375C5B005BA3D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
