@@ -13,8 +13,8 @@ class EntryController {
     var entries: [Entry] = []
     
     /* Added title to model. Please fix func.*/
-    func createEntryWith(text: String) {
-        let newEntry = Entry(bodyText: text)
+    func createEntryWith(title: String, text: String) {
+        let newEntry = Entry(title: title, bodyText: text)
         
         self.entries.append(newEntry)
     }

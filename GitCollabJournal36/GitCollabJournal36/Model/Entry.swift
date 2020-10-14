@@ -11,7 +11,7 @@ class Entry {
     var title: String
     var bodyText: String
     
-    init(title: Sting, bodyText: String) {
+    init(title: String, bodyText: String) {
         self.title = title
         self.bodyText = bodyText
     }
